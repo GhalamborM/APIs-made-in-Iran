@@ -20,14 +20,12 @@
 
 ### فهرست دسته بندی ها:
 - [نیازمند دسته بندی](#نیازمند-دسته-بندی)
-- [آب و هوا](#آب-و-هوا)
 - [بانک و پرداخت آنلاین](#بانک-و-پرداخت-آنلاین)
 - [استعلام بانکی](#استعلام-بانکی)
 - [پردازش متن](#پردازش-متن)
 - [پردازش گفتار](#پردازش-گفتار)
 - [پوش نوتیفیکیشن](#پوش-نوتیفیکیشن)
 - [پیام‌رسان](#پیام-رسان)
-- [تبلیغات](#تبلیغات)
 - [تقویم و اوقات شرعی](#تقویم-و-اوقات-شرعی)
 - [حمل و نقل و سفر](#حمل-و-نقل-و-سفر)
 - [قیمت‌ها](#قیمتها)
@@ -35,6 +33,7 @@
 - [قبض](#قبض)
 - [نقشه](#نقشه)
 - [بیمه](#بیمه)
+- [شبکه](#شبکه)
 
 
 ## نیازمند دسته بندی
@@ -46,16 +45,14 @@
 :free: | [API فیلم‌ها](http://moviesapi.ir/) | اطلاعات فیلم‌های برتر
 :free::moneybag: | [API بکتوری](https://backtory.com/) | یک ارائه‌دهنده دیگر خدمات Backend as a Service
 :free: | [API بهنویس](http://behnevis.com/api.html) | تبدیل پینگلیش به فارسی 
-:free: | [API حافظ](http://emrani.net/hafez/Api) | لیست غزلیات حافظ با امکان جستجو و فال
-:free::moneybag:  | [API پارسی جو](http://csi.parsijoo.ir/) | جستجوی وب، قیمت ارز و سکه، آب و هوا و نقشه بر اساس خدمات سایت جستجوگر ایرانی پارسی جو
-:free: | [API لحظه‌نگار](http://docs.lahzenegar.com/api/) | پلتفرم عمومی پخش زنده اینترنتی لحظه‌نگار
+:free: | [API حافظ](http://hafez.emrani.net/Api) | لیست غزلیات حافظ با امکان جستجو و فال
+:free: | [API لحظه‌نگار](https://app.swaggerhub.com/apis/Parsizabanan/lahzenegar/) | پلتفرم عمومی پخش زنده اینترنتی لحظه‌نگار
 :free::moneybag: | [API سرویس VoD ابر آروان](https://www.arvancloud.com/docs/api/vod/2.0) | خدمات پلتفرم ویدئوی ابر آروان
 :free::moneybag: | [API سرویس پخش زنده ابر آروان](https://www.arvancloud.com/docs/api/live/2.0) | خدمات پلتفرم پخش زنده ابر آروان
 :free::moneybag: | [API سرویس تبلیغات ویدویی ابر آروان](https://www.arvancloud.com/docs/api/vads/2.0) | خدمات تبلیغات ویدیویی ابر آروان
 :free::moneybag: | [API سرویس CDN ابر آروان](https://www.arvancloud.com/docs/api/cdn/4.0) | خدمات شبکه توزیع محتوی ابر آروان
 :free::moneybag: | [API سرویس IaaS ابر آروان](https://www.arvancloud.com/docs/api/iaas/1.0) | خدمات رایانش ابری ابر آروان
 :question: | [API آپارات](https://www.aparat.com/api) | اطلاعات کانال‌ها، پروفایل‌ها و ویدئوهای سایت آپارات
-:moneybag: | [API سخنک](http://sokhanak.com/api/) | بانک سخن بزرگان
 :free: | [API کپچای متنی](http://textcaptcha.ir/api) | سرویس ارائه کپچای متنی فارسی
 :moneybag: | [API رایچت](https://www.raychat.io/api) | پلتفرم گفتگوی آنلاین و ارتباط با مشتریان
 :free::moneybag: | [API دیجی سروی](http://www.digisurvey.net/apihelp) | سرویس ایجاد پرسشنامه و آزمون آنلاین
@@ -67,7 +64,6 @@
 :free::moneybag: | [API نیواد](https://nivad.io/docs/home/) | نیواد ارائه‌دهنده Backend as a Service برای ساخت بازی، اپلیکیشن و وب‌سایت‌ است
 :moneybag: | [API مستر۲اپ](http://mr2app.com/blog/app-build-api/) | سرویس ساخت اپلیکیشن بر اساس محتوای سایت
 :free: | [API ساخت QR Code](http://qr-code.ir/api/) | سرویس ساخت QR Code با قابلیت سفارشی سازی ابعاد و ایجاد کد برای محتوای وردپرس و بلاگفا و رزبلاگ
-:question: | [API دیتابین](http://databeen.ir/documents) | سرویس زیرساخت تحلیل داده اپلیکیشنهای موبایلی
 :free::moneybag: | [API آوانک](https://www.avanak.ir/webservice) | سرویس پیام صوتی
 :free: | [API ژاکت](https://zhaket.github.io/guard/) | سرویس تعریف لایسنس برای ابزارهای وردپرسی
 :moneybag: | [API ابرینو](https://abrino.ir/developers) | سرویس ذخیره‌سازی اطلاعات ابری برای توسعه‌دهندگان موبایل و وب. دریافت API نیازمند تماس است
@@ -78,23 +74,16 @@
 :moneybag: | [API پاکت](https://docs.pakat.net/) | سرویس ایمیل مارکتینگ
 :free: | [API داده نمونه فارسی](https://jsonplaceholder.ir/) | سرویسی رایگان برای برگرداندن داده نمونه شامل دسته‌بندی‌هایی نظیر پست وبلاگ، کامنت، کاربر و ... با امکان CRUD 
 :free: | [API اکسیر](https://apidocs.exir.io/) | پلتفورم هوشمند و اتوماتیک مبادله بیت کوین و سایر رمزارزها
-:moneybag: | [API قیمت خودرو سورس آرنا](http://sourcearena.ir/car-doc.php) | قیمت روزانه خودروها
+:moneybag: | [API قیمت خودرو سورس آرنا](https://sourcearena.ir/%d9%88%d8%a8-%d8%b3%d8%b1%d9%88%db%8c%d8%b3-api-%d9%82%db%8c%d9%85%d8%aa-%d8%ae%d9%88%d8%af%d8%b1%d9%88/) | قیمت روزانه خودروها
 :question: | [API سرویس‌های پاد](http://docs.pod.ir/) | مستندات سرویس‌های متنوع پاد از فناپ سافت
-
-[:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
-
-## آب و هوا
-وضعیت قیمت | لینک | موضوع
- | --- |--- | ---
- :moneybag:  | [API پارسی جو](http://csi.parsijoo.ir/#?q=page1) | سرویس آب و هوا وب سایت ایرانی پارسی جو
-
+:question: | [API درگاه رمزارز زنجیر](https://github.com/Zanjir/API-Documentation/) | وب سرویس درگاه پرداخت رمز ارز
+ 
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
 
 ##  بانک و پرداخت آنلاین
 وضعیت قیمت | لینک | موضوع
  | --- |--- | ---
  :free: | [API بانک ملی](https://sadadpsp.ir/fa/content/id/131/درگاه-پرداخت-اینترنتی-(IPG)) | سرویس درگاه پرداخت اینترنتی بانک ملی - سداد
- :free: | [API بانک سامان](https://www.sep.ir/اطلاعات-فنی) | سرویس درگاه پرداخت اینترنتی بانک سامان - پرداخت الکترونیک سامان کیش
  :free: | [API بانک مسکن](https://www.navaco.org/Home/GeneralEducation) | سرویس درگاه پرداخت اینترنتی بانک مسکن - فن آوا کارت
  :free: | [API بانک پاسارگاد](https://www.pep.co.ir/ipg/) | سرویس درگاه پرداخت اینترنتی بانک پاسارگاد - پرداخت الکترونیک پاسارگاد
  :free: | [API بانک کارآفرین](http://irankish.com/page/download_module) | سرویس درگاه پرداخت اینترنتی بانک کارآفرین - کارت اعتباری ایران کیش
@@ -142,7 +131,7 @@
 ## پردازش گفتار
 وضعیت قیمت | لینک | موضوع
  | --- |--- | ---
- :free::moneybag: | [API فارس‌آوا](https://panel.amerandish.com)| [مستندات](https://bump.sh/doc/farsava) تبدیل گفتار به متن
+ :free::moneybag: | [API فارس‌آوا](https://amerandish.com)| [مستندات](https://bump.sh/doc/farsava) تبدیل گفتار به متن
  :moneybag: | [API سرویس IoType](https://www.iotype.com/api) | سرویس تبدیل گفتار به نوشتار
 
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
@@ -152,7 +141,6 @@
  | --- |--- | ---
  :free::moneybag: | [API پوشه](https://pushe.co/docs) | سرویس ارسال پوش نوتیفیکیشن
  :free::moneybag: | [API نجوا](https://doc.najva.com/) | سرویس پوش نوتیفیکیشن نجوا
- :free::moneybag: | [API چابک](https://api.doc.chabokpush.com/) | سرویس پوش نوتیفیکیشن چابک
 
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
 
@@ -166,23 +154,16 @@
 
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
 
-## تبلیغات
-وضعیت قیمت | لینک | موضوع
- | --- |--- | ---
- :moneybag: | [API سرویس Adeto](https://adeto.ir/developers/api) | سرویس تبلیغات تعاملی آنلاین و نمایش کپچای تبلیغاتی 
- 
-[:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
-
 ## تقویم و اوقات شرعی
 وضعیت قیمت | لینک | موضوع
  | --- |--- | ---
- :free: | [API تقویم فارسی](https://farsicalendar.com/docs) | ارائه رویدادهای تقویم شمسی و قمری در قالب API
  :free: | [API گاهشمار](http://gahshomar-api.herokuapp.com) | سرویس اپن‌سورس برای کار با زمان و تاریخ با قابلیت تبدیل تاریخ
  :free: | [API اوقات شرعی](http://prayer.aviny.com/PrayerTimes-WebService.aspx) | سرویس جهت دریافت اوقات شرعی شهرهای ایران
 :free: | [API مسلم صلات](https://apieco.ir/api/muslimsalat-api/) | سرویس اوقات شرعی براساس موقعیت مکانی
 :free: | [API اوقات شرعی](http://prayer.aviny.com/PrayerTimes-WebService.aspx) | سرویس جهت دریافت اوقات شرعی شهرهای ایران
 :free: | [API اوقات شرعی](http://prayer.aviny.com/PrayerTimes-WebService.aspx) | سرویس جهت دریافت اوقات شرعی شهرهای ایران
 :free: | [API تبدیل تاریخ جلالی](https://apieco.ir/api/jalali-calender-converter/) | سرویس تبدیل تاریخ به جلالی
+:free: | [API مناسبت ها و تعطیلات ایران](https://holidayapi.ir) | سرویس تعطیلات تقویم رسمی ایران
 
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
 
@@ -200,7 +181,7 @@
  :free::moneybag: | [API پست بار](https://apieco.ir/api/postbar-registration-delivery-orders/) | سرویس پست بار
  :free::moneybag: | [API تاپین](https://apieco.ir/api/tapin-post-company-services/) | سرویس اطلاعات پست
  :free::moneybag: | [API پیرامید](https://apieco.ir/api/pyramid-order/) | سرویس سفارش حمل بار پیرامید
-
+ :free::moneybag: | [API اسنپ باکس](https://api-docs.snapp-box.com/) | سرویس سفارش حمل بار اسنپ باکس 
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
 
 ## قیمت‌ها
@@ -208,13 +189,12 @@
  | --- |--- | --- 
  :moneybag:  | [API قیمت طلا و سکه و ارز](http://www.tgju.org/api) | قیمت طلا و سکه و ارز و بازار سرمایه
  :free: | [API سامانه نظارت ارز - سنا](http://www.tgju.org/sanarate-service) | قیمت ارز سامانه نظارت ارز - سنا
- :moneybag:  | [API پارسی جو](http://csi.parsijoo.ir/#?q=page2) | سرویس قیمت ارز وب سایت ایرانی پارسی جو
  :moneybag:  | [API ارز سانی‌وب](https://api.sunnyweb.ir/) | سرویس غیررایگان جهت دریافت نرخ ارز و طلا و سکه
  :moneybag:  | [API نرخ ارز و طلا و سکه](http://nerkh-api.ir/guide.html) | سرویس غیررایگان جهت دریافت نرخ ارز و طلا و سکه
  :moneybag:  | [API نرخ ارز لحظه ای](https://apieco.ir/api/finnotech-realtime-currency/) | سرویس جهت دریافت نرخ ارز به صورت لحظه ای
  :moneybag:  | [API نرخ ارز روزانه](https://apieco.ir/api/finnotech-currency/) | سرویس جهت دریافت نرخ ارز به صورت روزانه
  :moneybag:  | [API نرخ سکه و فلزات گرانبها](https://apieco.ir/api/finnotech-gold-and-currency-markets/) | سرویس جهت دریافت نرخ ارز به صورت روزانه
- :moneybag: | [API ارز سورس آرنا](http://sourcearena.ir/digital-currency-doc.php) |  سرویس نرخ ارز و سکه
+ :moneybag: | [API ارز سورس آرنا](https://sourcearena.ir/%d9%88%d8%a8-%d8%b3%d8%b1%d9%88%db%8c%d8%b3-api-%d8%a7%d8%b1%d8%b2-%d8%b3%da%a9%d9%87/) |  سرویس نرخ ارز و سکه
  | :free:   | [API رایگان قیمت دلار](https://gist.github.com/polarspetroll/8cb87fab5b16e2e71326f2c52f8771fd) | سرویس رایگان دریافت قیمت دلار آمریکا و کانادا بر اساس اطلاعات سایت tgju.org | 
  
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
@@ -226,10 +206,9 @@
  :question: | [API توسن بوم](http://tosanboom.com/home/help/api-list) | سرویس‌های بانکی نظیر فهرست سپرده‌های مشتریان بانک‌ها، انتقال وجه بین سپرده‌ها، اعلام موجودی کارت و ...
  :question: | [API فینوتک](https://apibeta.finnotech.ir/) | خدمات بانکی بر پایه دو دسته سرویس‌های مبتنی بر کارت و سرویس‌های مبتنی بر حساب بانکی
  :question: | [API نوآوران امین](http://www.nadpco.com/#/HelpAPI) | سرویس اطلاعات بازار بورس تهران
- :question: | [API باشگاه مشتریان بانک ایران زمین](https://club.izbank.ir/Api.aspx) | وب سرویس باشگاه مشتریان بانک ایران زمین 
  :free::moneybag: | [API حساب‌فا](https://hesabfa.com/help/api) | سرویس حسابداری آنلاین 
  :moneybag: | [API بورس ویو](http://www.bourseview.com/views/api.html) | اطلاعات معاملاتی لحظه‎ای بازار بورس و تاریخچه آن
- :moneybag: | [API بورس سورس آرنا](https://sourcearena.ir/doc.php) | اطلاعات بازار بورس و فرابورس و همه نمادها یا یک نماد مشخص
+ :moneybag: | [API بورس سورس آرنا](https://sourcearena.ir/%d9%88%d8%a8-%d8%b3%d8%b1%d9%88%db%8c%d8%b3-api-%d8%a8%d9%88%d8%b1%d8%b3-%d9%81%d8%b1%d8%a7%d8%a8%d9%88%d8%b1%d8%b3/) | اطلاعات بازار بورس و فرابورس و همه نمادها یا یک نماد مشخص
  :moneybag: | [API بورس](https://apieco.ir/api/finnotech-stock-exchange/) | اطلاعات بازار بورس و فرابورس و همه نمادها با دقت بالا
  :moneybag: | [API والکس](https://api-docs.wallex.ir) | API صرافی رمزارز والکس برای معامله کریپتو و دریافت قیمت
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
@@ -252,7 +231,7 @@
  | --- |--- | ---
  :free::moneybag: | [API نشان](https://developer.neshan.org/) | API توسعه نقشه نشان که برای دریافت آن نیاز به ثبت‌نام دارید
  :question: | [API نقشه تهران](http://map.tehran.ir/) | اطلاعات تهران بر روی نقشه، جهت خواست از منوی بیشتر گزینه رابط برنامه‌نویس نقشه را انتخاب کنید
- :question: | [API پارسی جو](http://csi.parsijoo.ir/#?q=page2) | سرویس نقشه وب سایت ایرانی پارسپی جو
+ :question: | [API پارسی جو](http://csi.parsijoo.ir/#?q=page2) | سرویس نقشه وب سایت ایرانی پارسی جو
 :free::moneybag: | [API سیدار مپ](http://api.cedarmaps.com/docs/) | سرویس نقشه ایرانی با قابلیت‌هایی نظیر تبدیل نقطه جغرافیایی به آدرس و مکان یاب و جانمایی روی نقشه
  :free::moneybag: | [API سایت map.ir](http://corp.map.ir/map-services/api-services/developers/) | یک سرویس دیگر نقشه ایرانی
  :free: | [API پارسی مپ](https://www.parsimap.com/api/v2/docs/) | سرویس نقشه ایرانی با قابلیت استفاده عمومی یا اختصاصی
@@ -270,5 +249,10 @@
  
 [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
 
-
+## شبکه
+وضعیت قیمت | لینک | موضوع
+ | --- |--- | ---
+ :free: | [API دی‌ان‌اس‌ لب](https://dnslab.ir/api) | سرویس ارائه آی پی عمومی ، تست پینگ ، تست پورت ، بدست آوردن آی‌پی از روی دی‌ان‌اس و بدست آوردن آدرس دی‌ان‌اس از روی آی‌پی برای توسعه دهندگان
+ 
+ [:arrow_heading_up: بازگشت به فهرست](#فهرست-دسته-بندی-ها)
 </div>
